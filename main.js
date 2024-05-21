@@ -51,7 +51,7 @@ if(consulta){
                 alert(`${producto.descripcion} \na un precio de:$ ${producto.precio}`)})
                 }else{`Lo sentimos,no contamos con velas de esa forma. \nPodemos ofrecerte nuestros ${producto.nombre}  ${producto.forma} a un precio oferta de ${Oferta}`}
         }else{ 
-        alert(`No contamos con el producto solicitado`)
+        alert(`No contamos con el producto solicitado, podemos ofrecerte Velas, Inciensos, Pinos o Hornitos `)
         }
     }    
     filtrarProductos()
