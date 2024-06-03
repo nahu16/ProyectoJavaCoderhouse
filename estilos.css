@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Protest+Riot&display=swap");
+/* font-family: 'Dancing Script', cursive; */
+/* font-family: 'Protest Riot', sans-serif; */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: linear-gradient(rgb(235, 167, 156), rgb(223, 189, 179), rgb(249, 220, 206), rgb(255, 255, 255));
+  height: 100px;
+  width: 100%;
+  color: white;
+}
+
+.logo {
+  float: left;
+  font-size: 60px;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-family: "Dancing Script", cursive;
+  text-shadow: 2px 2px 5px black;
+}
+
+.titulo h2 {
+  font-size: 100px;
+  text-align: center;
+  margin-top: 100px;
+  color: white;
+  text-shadow: 5px 5px 10px black;
+}
+main {
+  background-image: url(imag/istockphoto-1291486920-612x612.jpg);
+  min-height: 100vh;
+}
+
+footer {
+  width: 100%;
+  bottom: 0px;
+  text-align: center;
+  background-color: rgb(249, 220, 206);
+  color: black;
+  font-size: 20px;
+}
+
+footerfooter .redes i {
+  font-size: 30px;
+  letter-spacing: 10px;
+  color: black;
+}
+.card {
+  width: 40%;
+  background-color: rgba(255, 127, 80, 0.6);
+  border: 5px solid 249, 220, 206;
+  border-radius: 20px;
+  margin-left: 5%;
+  display: inline-block;
+}
+
+.card_desc {
+  font-size: 20px;
+}
+
+.card_img {
+  height: 250px;
+  border-radius: 20px;
+  background-color: transparent;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+}
+
+.card_img2 {
+  height: 215px;
+  border-radius: 20px;
+  background-color: transparent;
+  background-image: url(imag/Armado.jpg);
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+}
+
+.card_title {
+  color: white;
+  text-transform: capitalize;
+  font-size: 25px;
+  text-align: center;
+}
+
+#filtrarProducto{
+  width: 50%;
+  margin-bottom: 20px;
+  margin-left: 15%;
+}
+
+button{
+  border-radius: 30px;
+  border-color: rgba(250, 111, 61, 0.6);
+  background-color: rgba(255, 127, 80, 0.6);
+  box-shadow: 10px black;
+  margin-right: 10px;
+}
+
+.carrito{
+  border-radius: 100%;
+  border-color: rgba(250, 111, 61, 0.6);
+  background-image: url(imag/png-transparent-computer-icons-shopping-cart-encapsulated-postscript-shopping-cart-angle-black-shopping-thumbnail.jpg);
+  background-color:white ;
+  box-shadow: 10px black;
+  margin-top: 10px;
+  background-position: center;
+  background-size:contain;
+  background-repeat: no-repeat;
+  color: transparent;
+}
+
+.formulario{
+  border-radius: 30px;
+  border-color: rgba(250, 111, 61, 0.6);
+  background-color: rgba(255, 127, 80, 0.6);
+  box-shadow: 10px black;
+}
+
+h4 {
+  color: rgb(52, 56, 121);
+  text-transform: capitalize;
+  font-size: 25px;
+}
+
+.img-fluid {
+  padding-top: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+  height: 140px;
+  width: 200px;
+  object-fit: cover;
+}
+
+
+h2 {
+  font-size: 50px;
+  margin-top: 10px;
+  color: white;
+  text-shadow: 5px 5px 10px black;
+}
+
+.form{
+  display:grid ;
+}
